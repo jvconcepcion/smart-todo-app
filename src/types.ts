@@ -27,3 +27,9 @@ export interface ThemeContextType {
 export interface TodoItemProps {
   task: Task;
 }
+
+// test-utils
+
+export interface AllTheProviderProps {
+  children: React.ReactNode
+}
